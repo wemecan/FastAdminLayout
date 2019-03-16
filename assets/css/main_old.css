@@ -1817,6 +1817,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		text-align: right;
 	}
 
 		ul.icons li {
