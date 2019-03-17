@@ -180,11 +180,11 @@ ul.icons a {
 
 /* -------- */
 
-#main {
-    margin-left: 240px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+#content {
+    margin-left: 270px; /* 240 + 30 */
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 12pt;
 }
 
 #footer {
