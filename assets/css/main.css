@@ -114,8 +114,8 @@ nav {
 
 #nav ul li.selected {
     background-color: rgb(246, 246, 246);
-    border-top: 1px solid rgb(241, 241, 241);
-    border-bottom: 1px solid rgb(241, 241, 241);
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
     border-right: 5px solid rgb(0, 119, 255);
     color: #343434;
 }
@@ -124,20 +124,20 @@ nav {
     background-color: rgb(253, 253, 253);
     border-top: 1px solid rgb(245, 245, 245);
     border-bottom: 1px solid rgb(245, 245, 245);
-    border-right: 5px solid rgb(236, 236, 236);
+    border-right: 5px solid rgb(235, 235, 235);
 }
 
 #nav ul li:active {
     background-color: rgb(253, 253, 253);
-    border-top: 1px solid rgb(245, 245, 245);
-    border-bottom: 1px solid rgb(245, 245, 245);
-    border-right: 5px solid rgb(99, 172, 255);
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    border-right: 5px solid rgb(220, 220, 220);
 }
 
 
 #nav ul li a {
     display: block;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+    padding: 5px 15px;
     text-decoration: none;
     outline: 0;
     border: 0;
@@ -195,19 +195,22 @@ ul.icons a {
 
 #footer {
     position: fixed;
-    width: 100%;
+    width: calc(100% - 240px);
     bottom: 0px;
     margin-left: 240px;
-    font-size: 10pt;
+    font-size: 11px;
     background-color: white;
     border-top: 1px solid rgb(241, 241, 241);
-    height: 40px;
+    height: 26px;
 }
 
 #footer .copyright {
+    display: block;
     cursor: default;
-    margin: 0;
+    width: 400px;
+    margin:  3px auto ;
 }
+
 
 #footer .copyright li:first-child {
     border-left: 0;
@@ -223,31 +226,22 @@ ul.icons a {
     margin: 0 0 0 0.5em;
 }
 
-div {
-    display: block;
-}
-
-
+/* ---------- */
 #heading {
     position: fixed;
-    width: 100%;
+    width: calc(100% - 240px);
     top: 0px;
     margin-left: 240px;
-    font-size: 10pt;
+    padding-right: 10px;
+    font-size: 12px;
     background-color: white;
     border-bottom: 1px solid rgb(241, 241, 241);
-    height: 35px;
+    height: 30px;
 }
 
-#heading > div {
-    display: flex;
-    /* align-items: center; */
-    justify-content: right;
-}
 
 #heading .login {
-    /* float: right;
-    margin-right: 0px; */
+    float: right;
 }
 
 #heading .login li:first-child {
